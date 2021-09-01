@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+  
+}
+.main_div{
+  position: absolute;
+  top: 2rem;
+  left: 15rem;
+  width: 70%;
+  min-height: auto;
+
+}
+.main_div .sub_div{
+  padding: 2rem;
+  position: relative;
+  left: 10rem;
+  top: 4rem;
+  background-color: #fff;
+  box-shadow: .5rem 1rem 1.5rem #888888;
+  width: 65%;
+  height: auto;
+}
+.main_div .sub_div h3{
+  font-size: 2rem;
+  color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main_div .sub_div p{
+  font-size: 1.2rem;
+  color: gray;
+}
+.main_div .sub_div .additem{
+  padding: 2rem;
+}
+.main_div .sub_div .additem input{
+  border: none;
+  outline: none;
+  width: 20rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  color: brown;
+  text-align: center;
+
+}
+.main_div .sub_div .additem input:hover{
+  background-color: darkcyan;
+  color: white;
+
+}
+.main_div .sub_div .additem .fas{
+  border: none;
+  outline: none;
+  width: 2rem;
+  height: 1.2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: blue;
+  background-color: white;
+  margin-left: 1rem;
+  padding: 1rem;
+  border-radius: 50%;
+
+
+}
+.main_div .sub_div .additem .fas:hover{
+  background-color: lightgreen;
+  color: black;
+}
+
+.main_div .sub_div .item {
+  margin-top: 1rem;
+}
+.main_div .sub_div .item input{
+  border: none;
+  outline: none;
+  width: 16rem;
+  height: 2.4rem;
+  font-size: 1rem;
+  color: blueviolet;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 5rem;
+}
+.main_div .sub_div .item input:hover{
+  background-color: grey;
+  color: #fff;
+}
+.main_div .sub_div .item .fas{
+  border: none;
+  outline: none;
+  width: 1.5rem;
+  height: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  color: red;
+  background-color: white;
+  margin-left: .5rem;
+  padding: .7rem;
+  border-radius: 50%;
+
+
+}
+.main_div .sub_div .item .fas:hover{
+  background-color: red;
+  color: #fff;
+
+}
+.main_div .sub_div .item .far{
+  border: none;
+  outline: none;
+  width: 1.5rem;
+  height: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  color: blue;
+  background-color: white;
+  margin-left: .5rem;
+  padding: .7rem;
+  border-radius: 50%;
+}
+.main_div .sub_div .item .far:hover{
+  background-color: blue;
+  color: #fff;
+}
+
+
